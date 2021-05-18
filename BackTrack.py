@@ -65,6 +65,7 @@ def search(start,end,img,pix):
     img = Image.fromarray(array)
     img.save('solution.png')
 
+#Labirintus megadás
 img = Image.open("maze2.png")
 pix = img.load()
 
